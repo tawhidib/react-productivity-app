@@ -1,13 +1,92 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: #fff;
+}
+
+.header {
+  background-color: #3c40c6;
+}
+
+.todo {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.addBtn {
+  background-color: #3c40c6;
+  transition: all 0.3s ease-in-out;
+}
+
+.addBtn:hover {
+  background-color: #fff;
+}
+.add {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.addBtn:hover .add {
+  color: #3c40c6;
+}
+
+.pending-task {
+  background-color: #ffdd59;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.complete-task {
+  background-color: #0be881;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.checkBtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #0be881;
+  border: 0;
+  color: #fff;
+}
+
+.makePendingBtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ffdd59;
+  border: 0;
+  color: #1e272e;
+}
+.trashBtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ff5e57;
+  border: 0;
+  color: #fff;
 }
