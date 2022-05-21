@@ -2,10 +2,20 @@
 
 live netlify link: https://chic-elf-ec658f.netlify.app/
 
-## what is used for this
+## App Description
 
 This is very basic react application.
-Mainly this product is used useState hook, and I want to show my design and Bootstrap knowledge.
+
+Mainly in this project, I want to show my basic knowledge about ReactJS and desiging a website.
+
 It's not my best and I can do more things with react and as well as with user interface.
 
-In this project I also used React-Tostify and UUID.
+## What things used in this application
+
+1. Basic React
+2. React Components and Props drilling
+3. React Hook - {useState}
+4. React Tostify
+5. React UUID
+6. Bootstrap
+7. Responsive Design
